@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\luda_\\project\\my_project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A39025CD-086C-42D3-975B-A5297EABA086}|my_project.pyproj|C:\\Users\\luda_\\project\\my_project\\src\\my_project\\router.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A39025CD-086C-42D3-975B-A5297EABA086}|my_project.pyproj|solutionrelative:src\\my_project\\router.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "router.py",
+              "DocumentMoniker": "C:\\Users\\luda_\\project\\my_project\\src\\my_project\\router.py",
+              "RelativeDocumentMoniker": "src\\my_project\\router.py",
+              "ToolTip": "C:\\Users\\luda_\\project\\my_project\\src\\my_project\\router.py",
+              "RelativeToolTip": "src\\my_project\\router.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-02T17:37:56.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
