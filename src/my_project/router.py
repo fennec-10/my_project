@@ -23,7 +23,7 @@ def signup(user: User):
 def get_user(login: str)->UserResponse:
     if login not in users_database:
         raise HTTPException(status.HTTP_404_NOT_FOUND)
-        user = users_database[login]
+    user = users_database[login]
     return UserResponse(name=user.name, email=user.email)
 
 #добавит несколько баз данных для добавления домашнего животного, его айди в виде числа, кличка его например
@@ -36,14 +36,14 @@ def get_pets() -> list[PetResponse]:
     return [ PetResponse(name=pet.name, nickname=pet.nickname) for pet in petid_database.values()]
 
 @router.post("/create_petid", status_code=status.HTTP_201_CREATED)
-def create_petid(pet: Pet) ->:
+def create_petid(pet: Pet) -> None:
     if pet.id in petid_database:
-        raise HTTPExpception(status.HTTP_409_CONFLICT)
+        raise HTTPExсeption(status.HTTP_409_CONFLICT)
     petid_database[pet.id] = pet
 
 @router.get("/petid/{id}")
-def get_petid(id: int)->PetResponse:
-    if login not in petid_database:
+def get_petid(id: int)-> PetResponse:
+    if id not in petid_database:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND)
-        pet = petid_database[id]
+    pet = petid_database[id]
     return PetResponse(name=pet.name, nicknaim=pet.nickname)
